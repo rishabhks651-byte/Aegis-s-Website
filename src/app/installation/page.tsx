@@ -45,7 +45,7 @@ export default function InstallationPage() {
           <Terminal
             title="install.sh"
             lines={[
-              { content: `git clone ${siteConfig.githubUrl}.git`, prompt: true },
+              { content: `git clone https://github.com/rishabhks651-byte/Aegis.git`, prompt: true },
               { content: "cd Aegis", prompt: true },
               { content: "pip install .", prompt: true },
               { output: "  Successfully installed aegis" },
@@ -75,9 +75,9 @@ export default function InstallationPage() {
           <Terminal
             title="dev-install.sh"
             lines={[
-              { content: `git clone ${siteConfig.githubUrl}.git`, prompt: true },
+              { content: `git clone https://github.com/rishabhks651-byte/Aegis.git`, prompt: true },
               { content: "cd Aegis", prompt: true },
-              { content: "pip install -e \".[dev,db]\"", prompt: true },
+              { content: "pip install -e \"[dev,db]\"", prompt: true },
             ]}
           />
         </div>
