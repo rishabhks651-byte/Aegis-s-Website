@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Aegis",
   description: "Policy enforcement for AI agents and automated systems",
   tagline: "The policy enforcement layer for AI agents and automated software",
-  githubUrl: process.env.NEXT_PUBLIC_GITHUB_URL || "https://github.com/aegis/aegis",
+  githubUrl: process.env.NEXT_PUBLIC_GITHUB_URL || "https://github.com/rishabhks651-byte/Aegis",
   version: "0.1.0",
   status: "Alpha — under active development",
   license: "MIT",
