@@ -2,8 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/Aegis-s-Website",
-  assetPrefix: "/Aegis-s-Website/",
+  // Removed basePath and assetPrefix so the static export is served from the site root
 };
 
 export default nextConfig;
